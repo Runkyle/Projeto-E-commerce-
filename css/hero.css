@@ -2,8 +2,10 @@
     background: url(../img/banners/hero.png) no-repeat center ;
     background-size: cover;
 
-    height: 600px;
+    
+    height: 500px;
     position: relative;
+    border-radius: 15px;
 
 }
 

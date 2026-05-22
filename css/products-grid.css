@@ -1,0 +1,98 @@
+.card{
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    color: #EDEDED;
+    
+}
+
+
+.highlight{
+    grid-area:highlight;
+    background: url(../img/products/grid/homem-pose.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.sneaker-purple{
+    grid-area:sneaker-purple;
+    background: url(../img/products/grid/purple.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.model{
+    grid-area:model;
+    background: url(../img/products/grid/mulher-pose.png) no-repeat center;
+    background-size: cover;
+}
+
+.sneaker-color{
+    grid-area:sneaker-color;
+    background: url(../img/products/grid/moderno.png) no-repeat center;
+    background-size: cover;
+}
+
+.sneaker-white{
+    grid-area:sneaker-white;
+    background: url(../img/products/grid/social.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.sneaker-silver{
+    grid-area:sneaker-silver;
+    background: url(../img/products/grid/casual.png) no-repeat center;
+    background-size: cover;
+}
+
+.grid-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+
+    grid-template-areas: 
+    "highlight highlight sneaker-purple sneaker-purple "
+    "highlight highlight model sneaker-color "
+    "sneaker-white sneaker-white model sneaker-silver";
+    gap: 30px;
+    
+}
+
+
+.highlight-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.highlight-content .card-title{
+    font-size: .1.25rem;
+    margin-bottom: 10px;
+    font-weight: 400;
+    line-height: 36px;
+    
+}
+
+.highlight-content .card-subtitle{
+
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.ctp-group{
+    display: flex;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
