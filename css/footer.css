@@ -15,17 +15,20 @@
 }
 
 .footer-right{
+
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     
 }
 
 .footer-right h3{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 .footer-right .social-icons {
+    
     display: flex;
     gap: 20px;
     transition: 0.3s;
