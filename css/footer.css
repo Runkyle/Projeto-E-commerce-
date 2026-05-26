@@ -115,3 +115,24 @@ hr{
     font-weight: 500;
     font-size: 20px;
 }
+
+@media (max-width: 1000px) {
+    .footer-container{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .footer-nav{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-social ul{
+        gap: 1rem;
+    }
+
+    .footer-bottom{
+        font-size: 1rem;
+    }
+}
